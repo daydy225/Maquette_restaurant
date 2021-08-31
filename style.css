@@ -1,0 +1,16 @@
+/*###################### Generale ###############################*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+  --primary-color-blue: #0774bd;
+}
+div.page1 {
+  background-color: var(--primary-color-blue);
+}
+nav {
+  display: flex;
+}
