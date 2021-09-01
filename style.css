@@ -94,6 +94,10 @@ section.description button {
 }
 
 section.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
   width: 55vw;
   background-image: url(Images/lg1-pizza.png);
   background-repeat: no-repeat;
@@ -101,12 +105,10 @@ section.menu {
 }
 
 .sm-card {
-  position: absolute;
-  top: 25rem;
-  right: 5rem;
+  margin-right: 2.5em;
   background-color: var(--primary-color-white);
   color: #1c1c1c;
-  font-size: 1.125em;
+  font-size: 1em;
   width: 330px;
   height: 200px;
   border-radius: 10px;
@@ -115,10 +117,11 @@ div.sm-img {
   display: flex;
   font-size: 1.25em;
 }
-div.img h3 {
-  margin-top: 0.9rem;
+div.sm-img h3 {
+  flex: 2;
+  margin-top: 0.5em;
+  margin-bottom: 0;
 }
-
 .prix {
   font-weight: bold;
   color: red;
@@ -128,10 +131,11 @@ div.img h3 {
   text-align: center;
 }
 .text-smcard {
-  padding: 0em 1em 0em 1.55em;
+  padding: 0em 0.5em 0em 1.55em;
   color: var(--primary-color-gray);
   font-size: 0.8em;
 }
 .sm-img img {
+  flex: 1;
   height: 100px;
 }
