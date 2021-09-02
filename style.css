@@ -1,14 +1,17 @@
+@import url("style2.css");
+
 /*###################### Generale ###############################*/
 * {
   box-sizing: border-box;
 }
 
 :root {
-  --primary-color-blue: #0774bd;
-  --primary-color-white: #fff;
-  --primary-color-orange: #eb6d1a;
-  --primary-color-gray: #808080;
-  --primary-width: 90vw;
+  --color-blue: #0774bd;
+  --color-white: #fcfffc;
+  --color-orange: #eb6d1a;
+  --color-gray: #808080;
+  --color-black: #1c1c1c;
+  --custom-width: 90vw;
 }
 
 html,
@@ -16,11 +19,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Open sans", Arial, Helvetica, sans-serif;
+  background-color: var(--color-white);
   height: 100vh;
 }
 div.page1 {
-  background-color: var(--primary-color-blue, blue);
-  color: var(--primary-color-white, white);
+  background-color: var(--color-blue, blue);
+  color: var(--color-white, white);
   height: 100vh;
 }
 
@@ -29,7 +33,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: var(--primary-width);
+  width: var(--custom-width);
   margin: 0 auto;
 }
 
@@ -59,13 +63,14 @@ nav {
   margin: 0 0.4em;
   list-style: none;
 }
-/*############################# Header ########################################*/
+/*############################# PAGE 1 ########################################*/
 
 header {
   display: flex;
-  width: var(--primary-width);
+  width: var(--custom-width);
   margin: 0 auto;
   height: 80vh;
+  padding-bottom: 2.5em;
 }
 
 section.description {
@@ -89,8 +94,8 @@ section.description button {
   cursor: pointer;
   border: 0px solid;
   border-radius: 10px;
-  background-color: var(--primary-color-orange);
-  color: var(--primary-color-white);
+  background-color: var(--color-orange);
+  color: var(--color-white);
 }
 
 section.menu {
@@ -105,9 +110,9 @@ section.menu {
 }
 
 .sm-card {
-  margin-right: 2.5em;
-  background-color: var(--primary-color-white);
-  color: #1c1c1c;
+  margin-right: 3.8em;
+  background-color: var(--color-white);
+  color: var(--color-black);
   font-size: 1em;
   width: 330px;
   height: 200px;
@@ -132,7 +137,7 @@ div.sm-img h3 {
 }
 .text-smcard {
   padding: 0em 0.5em 0em 1.55em;
-  color: var(--primary-color-gray);
+  color: var(--color-gray);
   font-size: 0.8em;
 }
 .sm-img img {

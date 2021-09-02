@@ -1,3 +1,51 @@
-@import "style.css";
+/*###################### PAGE 2  ###################################*/
+div.page2 {
+  margin: 3rem auto;
+  display: flex;
+  justify-content: flex-end;
+  width: var(--custom-width);
+}
 
-/*###################### Main   ###################################*/
+section.best,
+section.best-img {
+  flex: 1;
+}
+section.best h3 {
+  font-size: 2.5em;
+  text-transform: capitalize;
+  color: var(--color-blue);
+  margin-bottom: 0.5em;
+}
+section.best p {
+  color: var(--color-gray);
+}
+.cs-list {
+  padding-left: 0.25em;
+  font-size: 0.9em;
+}
+.cs-list span i {
+  color: var(--color-blue);
+  padding-right: 0.5em;
+}
+section.best-img {
+  margin-left: 6rem;
+  margin-top: 7rem;
+  position: relative;
+}
+
+section.best-img .img1,
+section.best-img .img2 {
+  height: 320px;
+  width: 250px;
+  border: 15px solid #fcfffc;
+}
+.img1 {
+  position: absolute;
+  z-index: 2;
+}
+
+.img2 {
+  position: absolute;
+  left: 13rem;
+  top: 3rem;
+}
