@@ -28,15 +28,15 @@ section.best p {
   padding-right: 0.5em;
 }
 section.best-img {
-  margin-left: 6rem;
-  margin-top: 7rem;
+  margin-left: 5rem;
+  margin-top: 6rem;
   position: relative;
 }
 
 section.best-img .img1,
 section.best-img .img2 {
-  height: 320px;
-  width: 250px;
+  height: 340px;
+  width: 300px;
   border: 15px solid #fcfffc;
 }
 .img1 {
@@ -46,6 +46,6 @@ section.best-img .img2 {
 
 .img2 {
   position: absolute;
-  left: 13rem;
+  left: 15rem;
   top: 3rem;
 }

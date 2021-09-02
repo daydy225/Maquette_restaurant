@@ -1,0 +1,81 @@
+/*########################## PAGE 3 ###############################*/
+div.page3 {
+  width: var(--custom-width);
+  margin: 16rem auto 5rem auto;
+  display: flex;
+}
+
+section.menu-categories {
+  flex: 1 1 0;
+  border-right: 1px solid #d5d5d5;
+  padding-top: 2em;
+  padding-right: 1.5em;
+}
+section.menu-categories h3 {
+  font-size: 2.5em;
+  text-transform: capitalize;
+  color: var(--color-blue);
+}
+section.menu-categories p {
+  color: var(--color-gray);
+}
+section.menu-categories button {
+  padding: 15px 20px;
+  border-radius: 1px;
+  text-align: center;
+  font-size: 1.145em;
+  cursor: pointer;
+  border: 0px solid;
+  border-radius: 10px;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+section.menu-card {
+  flex: 2 2 0;
+  padding: 1.5em;
+  display: flex;
+}
+
+div.circle i.fa-circle {
+  font-size: 1em;
+  color: #d3d3d3;
+  margin-right: 0.3em;
+}
+div.circle i.far {
+  color: var(--color-blue);
+}
+/*############################# Menu Card ####################################*/
+div.single-card {
+  height: 52vh;
+}
+
+div.single-card img {
+  height: 290px;
+  width: 280px;
+  border-radius: 10px;
+  margin-left: 1.25em;
+}
+div.card-desc {
+  line-height: 0.5em;
+  display: flex;
+  width: 280px;
+  align-items: center;
+  margin-left: 1.25em;
+}
+
+div.card-desc p {
+  font-size: 0.8em;
+}
+
+.card-desc div:first-child {
+  flex: 2;
+}
+.card-desc div:nth-child(2) {
+  flex: 1;
+}
+
+div.desc-icon i {
+  font-size: 1.5em;
+  color: var(--color-blue);
+  padding-left: 16px;
+}
