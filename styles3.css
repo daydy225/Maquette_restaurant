@@ -1,7 +1,7 @@
 /*########################## PAGE 3 ###############################*/
 div.page3 {
   width: var(--custom-width);
-  margin: 16rem auto 5rem auto;
+  margin: 16rem auto 16rem auto;
   display: flex;
 }
 
